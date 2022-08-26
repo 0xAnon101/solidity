@@ -15,9 +15,5 @@ contract C {
 // SMTEngine: all
 // ----
 // Warning 2072: (161-176): Unused local variable.
-// Warning 1218: (379-417): CHC: Error trying to invoke SMT solver.
-// Warning 1218: (436-474): CHC: Error trying to invoke SMT solver.
-// Warning 6328: (379-417): CHC: Assertion violation might happen here.
-// Warning 6328: (436-474): CHC: Assertion violation might happen here.
-// Warning 4661: (379-417): BMC: Assertion violation happens here.
-// Warning 4661: (436-474): BMC: Assertion violation happens here.
+// Warning 6328: (379-417): CHC: Assertion violation happens here.\nCounterexample:\n\nsel = 0x0\na = 0\nb = 0\nb1 = [0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17]\nb2 = [0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17]\nb3 = [0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14]\n\nTransaction trace:\nC.constructor()\nC.abiEncodeHash(0x0, 0, 0)
+// Warning 6328: (436-474): CHC: Assertion violation happens here.\nCounterexample:\n\nsel = 0x0\na = 0\nb = 0\nb1 = [0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18]\nb2 = [0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18]\nb3 = [0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14]\n\nTransaction trace:\nC.constructor()\nC.abiEncodeHash(0x0, 0, 0)

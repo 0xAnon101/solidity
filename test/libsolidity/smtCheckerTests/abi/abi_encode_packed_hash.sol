@@ -12,6 +12,4 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Warning 1218: (281-319): CHC: Error trying to invoke SMT solver.
-// Warning 6328: (281-319): CHC: Assertion violation might happen here.
-// Warning 4661: (281-319): BMC: Assertion violation happens here.
+// Warning 6328: (281-319): CHC: Assertion violation happens here.\nCounterexample:\n\na = 0\nb = 0\n\nTransaction trace:\nC.constructor()\nC.abiencodePackedHash(0, 0)
