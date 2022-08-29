@@ -697,7 +697,7 @@ bool IRGeneratorForStatements::visit(UnaryOperation const& _unaryOperation)
 
 		string argument = expressionAsType(_unaryOperation.subExpression(), *functionType->selfType());
 		solAssert(!argument.empty());
-		solAssert(function->isImplemented(), "");
+		solAssert(function->isImplemented());
 
 		solAssert(
 			function->returnParameters().size() == 1,
@@ -844,7 +844,7 @@ bool IRGeneratorForStatements::visit(BinaryOperation const& _binOp)
 		string right = expressionAsType(_binOp.rightExpression(), *functionType->parameterTypes().at(0));
 		solAssert(!left.empty() && !right.empty());
 
-		solAssert(function->isImplemented(), "");
+		solAssert(function->isImplemented());
 
 		solAssert(
 			function->returnParameters().size() == 1,
@@ -861,7 +861,7 @@ bool IRGeneratorForStatements::visit(BinaryOperation const& _binOp)
 		return false;
 	}
 
-	solAssert(!!_binOp.annotation().commonType, "");
+	solAssert(!!_binOp.annotation().commonType);
 	Type const* commonType = _binOp.annotation().commonType;
 	langutil::Token op = _binOp.getOperator();
 
