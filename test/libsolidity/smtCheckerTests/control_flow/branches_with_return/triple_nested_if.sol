@@ -19,4 +19,4 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreOS: macos
 // ----
-// Info 1180: Contract invariant(s) for :C:\n((c <= 0) && (a <= 0) && (b <= 0))\n
+// Warning 6328: (163-197): CHC: Assertion violation might happen here.

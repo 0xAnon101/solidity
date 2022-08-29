@@ -13,4 +13,4 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreOS: macos
 // ----
-// Warning 6328: (281-319): CHC: Assertion violation happens here.\nCounterexample:\n\na = 0\nb = 0\n\nTransaction trace:\nC.constructor()\nC.abiencodePackedHash(0, 0)
+// Warning 6328: (281-319): CHC: Assertion violation happens here.

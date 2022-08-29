@@ -18,6 +18,8 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreCex: yes
 // ----
-// Warning 6328: (280-314): CHC: Assertion violation happens here.
-// Info 1180: Contract invariant(s) for :C:\n((!(c <= 1) || !((:var 1).balances[address(this)] <= 90)) && !((:var 1).balances[address(this)] <= 81) && (!(c <= 0) || !((:var 1).balances[address(this)] <= 100)))\n
+// Warning 6328: (227-261): CHC: Assertion violation might happen here.
+// Warning 6328: (280-314): CHC: Assertion violation might happen here.
 // Warning 1236: (175-190): BMC: Insufficient funds happens here.
+// Warning 4661: (227-261): BMC: Assertion violation happens here.
+// Warning 4661: (280-314): BMC: Assertion violation happens here.

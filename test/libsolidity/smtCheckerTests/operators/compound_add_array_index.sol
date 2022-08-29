@@ -20,4 +20,4 @@ contract C
 // SMTEngine: all
 // SMTIgnoreOS: macos
 // ----
-// Warning 6328: (262-284): CHC: Assertion violation happens here.\nCounterexample:\narray = [200, 0]\nx = 0\np = 0\n\nTransaction trace:\nC.constructor()\nState: array = [0, 0]\nC.f(0, 0)
+// Warning 6328: (262-284): CHC: Assertion violation happens here.

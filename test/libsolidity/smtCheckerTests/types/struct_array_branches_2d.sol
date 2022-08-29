@@ -16,5 +16,13 @@ contract C
 // ====
 // SMTEngine: all
 // ----
+// Warning 6368: (114-120): CHC: Out of bounds access might happen here.
+// Warning 6368: (140-146): CHC: Out of bounds access might happen here.
+// Warning 6368: (140-149): CHC: Out of bounds access might happen here.
+// Warning 6368: (167-173): CHC: Out of bounds access might happen here.
+// Warning 6368: (167-176): CHC: Out of bounds access might happen here.
+// Warning 6368: (192-198): CHC: Out of bounds access might happen here.
+// Warning 6368: (192-201): CHC: Out of bounds access might happen here.
+// Warning 6368: (216-222): CHC: Out of bounds access might happen here.
 // Warning 6368: (216-225): CHC: Out of bounds access might happen here.
 // Warning 6328: (209-230): CHC: Assertion violation might happen here.

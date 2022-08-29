@@ -25,4 +25,5 @@ contract C {
 // SMTIgnoreCex: yes
 // ----
 // Warning 2072: (249-255): Unused local variable.
-// Warning 6328: (271-295): CHC: Assertion violation happens here.
+// Warning 6328: (271-295): CHC: Assertion violation might happen here.
+// Warning 4661: (271-295): BMC: Assertion violation happens here.

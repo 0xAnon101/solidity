@@ -123,21 +123,21 @@ contract C {
 // Warning 8364: (704-711): Assertion checker does not yet implement type struct C.S storage ref
 // Warning 8364: (704-716): Assertion checker does not yet implement type struct C.S storage ref
 // Warning 4375: (704-718): Assertion checker does not support recursive structs.
-// Warning 6328: (91-111): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6328: (115-149): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6368: (216-223): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6368: (229-236): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6328: (209-239): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6368: (251-258): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6368: (284-291): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6368: (316-323): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6368: (336-343): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6328: (309-353): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6368: (605-612): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
-// Warning 6368: (623-630): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
-// Warning 6368: (641-648): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
-// Warning 6368: (661-668): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
-// Warning 6368: (681-688): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
-// Warning 6368: (681-693): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
-// Warning 6368: (704-711): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
-// Warning 6368: (704-716): CHC: Out of bounds access happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
+// Warning 6328: (91-111): CHC: Assertion violation happens here.
+// Warning 6328: (115-149): CHC: Assertion violation happens here.
+// Warning 6368: (216-223): CHC: Out of bounds access happens here.
+// Warning 6368: (229-236): CHC: Out of bounds access happens here.
+// Warning 6328: (209-239): CHC: Assertion violation happens here.
+// Warning 6368: (251-258): CHC: Out of bounds access happens here.
+// Warning 6368: (284-291): CHC: Out of bounds access happens here.
+// Warning 6368: (316-323): CHC: Out of bounds access happens here.
+// Warning 6368: (336-343): CHC: Out of bounds access happens here.
+// Warning 6328: (309-353): CHC: Assertion violation happens here.
+// Warning 6368: (605-612): CHC: Out of bounds access happens here.
+// Warning 6368: (623-630): CHC: Out of bounds access happens here.
+// Warning 6368: (641-648): CHC: Out of bounds access happens here.
+// Warning 6368: (661-668): CHC: Out of bounds access happens here.
+// Warning 6368: (681-688): CHC: Out of bounds access happens here.
+// Warning 6368: (681-693): CHC: Out of bounds access happens here.
+// Warning 6368: (704-711): CHC: Out of bounds access happens here.
+// Warning 6368: (704-716): CHC: Out of bounds access happens here.

@@ -24,4 +24,5 @@ contract C {
 // SMTIgnoreCex: yes
 // ----
 // Warning 9302: (212-228): Return value of low-level calls not used.
-// Warning 6328: (232-246): CHC: Assertion violation happens here.
+// Warning 6328: (232-246): CHC: Assertion violation might happen here.
+// Warning 4661: (232-246): BMC: Assertion violation happens here.

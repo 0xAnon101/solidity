@@ -28,3 +28,5 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreInv: yes
 // ----
+// Warning 6328: (280-294): CHC: Assertion violation might happen here.
+// Warning 4661: (280-294): BMC: Assertion violation happens here.

@@ -31,8 +31,13 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Warning 6328: (196-213): CHC: Assertion violation happens here.\nCounterexample:\n\ns1 = {x: 2, t: {y: 0, a: []}, a: [], ts: []}\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6328: (231-250): CHC: Assertion violation happens here.\nCounterexample:\n\ns1 = {x: 2, t: {y: 3, a: []}, a: [], ts: []}\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6328: (293-313): CHC: Assertion violation happens here.\nCounterexample:\n\ns1 = {x: 2, t: {y: 3, a: []}, a: [0, 0, 4], ts: []}\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6328: (357-380): CHC: Assertion violation happens here.\nCounterexample:\n\ns1 = {x: 2, t: {y: 3, a: []}, a: [0, 0, 4], ts: [{y: 0, a: []}, {y: 0, a: []}, {y: 0, a: []}, {y: 5, a: []}, {y: 0, a: []}, {y: 0, a: []}]}\n\nTransaction trace:\nC.constructor()\nC.f()
-// Warning 6328: (435-461): CHC: Assertion violation happens here.\nCounterexample:\n\ns1 = {x: 2, t: {y: 3, a: []}, a: [0, 0, 4], ts: [{y: 0, a: []}, {y: 0, a: []}, {y: 0, a: []}, {y: 5, a: []}, {y: 0, a: [0, 0, 0, 0, 0, 6]}, {y: 0, a: []}]}\n\nTransaction trace:\nC.constructor()\nC.f()
+// Warning 6328: (196-213): CHC: Assertion violation might happen here.
+// Warning 6328: (231-250): CHC: Assertion violation might happen here.
+// Warning 6328: (293-313): CHC: Assertion violation might happen here.
+// Warning 6328: (357-380): CHC: Assertion violation might happen here.
+// Warning 6328: (435-461): CHC: Assertion violation might happen here.
+// Warning 4661: (196-213): BMC: Assertion violation happens here.
+// Warning 4661: (231-250): BMC: Assertion violation happens here.
+// Warning 4661: (293-313): BMC: Assertion violation happens here.
+// Warning 4661: (357-380): BMC: Assertion violation happens here.
+// Warning 4661: (435-461): BMC: Assertion violation happens here.

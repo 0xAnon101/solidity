@@ -20,5 +20,6 @@ contract C {
 // SMTIgnoreCex: yes
 // ----
 // Warning 4984: (113-116): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
-// Warning 6328: (156-170): CHC: Assertion violation happens here.
+// Warning 6328: (156-170): CHC: Assertion violation might happen here.
 // Warning 2661: (113-116): BMC: Overflow (resulting value larger than 2**256 - 1) happens here.
+// Warning 4661: (156-170): BMC: Assertion violation happens here.

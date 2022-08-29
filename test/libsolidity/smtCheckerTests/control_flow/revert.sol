@@ -33,4 +33,4 @@ contract C {
 // Warning 5740: (83-96): Unreachable code.
 // Warning 5740: (188-201): Unreachable code.
 // Warning 6321: (375-388): Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
-// Warning 6328: (394-411): CHC: Assertion violation happens here.\nCounterexample:\nx = true\n\nTransaction trace:\nC.constructor()\nState: x = false\nC.i()\n    C.m() -- internal call
+// Warning 6328: (394-411): CHC: Assertion violation happens here.

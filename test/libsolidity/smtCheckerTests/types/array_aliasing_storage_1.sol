@@ -53,3 +53,4 @@ contract C
 // SMTIgnoreCex: yes
 // ----
 // Warning 2018: (957-1329): Function state mutability can be restricted to view
+// Warning 6368: (1124-1134): CHC: Out of bounds access might happen here.

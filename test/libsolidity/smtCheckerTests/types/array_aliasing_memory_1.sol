@@ -37,17 +37,30 @@ contract C
 // ====
 // SMTEngine: all
 // ----
-// Warning 6368: (523-528): CHC: Out of bounds access happens here.
-// Warning 6368: (523-531): CHC: Out of bounds access happens here.
-// Warning 6368: (557-563): CHC: Out of bounds access happens here.
-// Warning 6368: (557-566): CHC: Out of bounds access happens here.
-// Warning 6368: (557-569): CHC: Out of bounds access happens here.
-// Warning 6368: (578-582): CHC: Out of bounds access happens here.
-// Warning 6368: (699-703): CHC: Out of bounds access happens here.
-// Warning 6368: (712-717): CHC: Out of bounds access happens here.
-// Warning 6368: (712-720): CHC: Out of bounds access happens here.
-// Warning 6368: (730-736): CHC: Out of bounds access happens here.
-// Warning 6368: (730-739): CHC: Out of bounds access happens here.
-// Warning 6368: (730-742): CHC: Out of bounds access happens here.
-// Warning 6328: (692-749): CHC: Assertion violation happens here.
-// Warning 6368: (850-854): CHC: Out of bounds access happens here.
+// Warning 6368: (271-276): CHC: Out of bounds access might happen here.
+// Warning 6368: (326-331): CHC: Out of bounds access might happen here.
+// Warning 6368: (382-388): CHC: Out of bounds access might happen here.
+// Warning 6368: (412-418): CHC: Out of bounds access might happen here.
+// Warning 6368: (412-421): CHC: Out of bounds access might happen here.
+// Warning 6368: (437-441): CHC: Out of bounds access might happen here.
+// Warning 6368: (523-528): CHC: Out of bounds access might happen here.
+// Warning 6368: (523-531): CHC: Out of bounds access might happen here.
+// Warning 6368: (540-545): CHC: Out of bounds access might happen here.
+// Warning 6368: (540-548): CHC: Out of bounds access might happen here.
+// Warning 6368: (557-563): CHC: Out of bounds access might happen here.
+// Warning 6368: (557-566): CHC: Out of bounds access might happen here.
+// Warning 6368: (557-569): CHC: Out of bounds access might happen here.
+// Warning 6368: (578-582): CHC: Out of bounds access might happen here.
+// Warning 6368: (699-703): CHC: Out of bounds access might happen here.
+// Warning 6368: (712-717): CHC: Out of bounds access might happen here.
+// Warning 6368: (712-720): CHC: Out of bounds access might happen here.
+// Warning 6368: (730-736): CHC: Out of bounds access might happen here.
+// Warning 6368: (730-739): CHC: Out of bounds access might happen here.
+// Warning 6368: (730-742): CHC: Out of bounds access might happen here.
+// Warning 6328: (692-749): CHC: Assertion violation might happen here.
+// Warning 6368: (824-829): CHC: Out of bounds access might happen here.
+// Warning 6368: (824-832): CHC: Out of bounds access might happen here.
+// Warning 6328: (817-839): CHC: Assertion violation might happen here.
+// Warning 6368: (850-854): CHC: Out of bounds access might happen here.
+// Warning 6328: (843-860): CHC: Assertion violation might happen here.
+// Warning 4661: (692-749): BMC: Assertion violation happens here.

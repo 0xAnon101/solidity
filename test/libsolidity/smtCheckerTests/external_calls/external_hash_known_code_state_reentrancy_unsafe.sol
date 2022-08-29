@@ -37,4 +37,5 @@ contract C {
 // SMTIgnoreOS: macos
 // ----
 // Warning 6328: (348-362): CHC: Assertion violation happens here.
-// Warning 6328: (366-392): CHC: Assertion violation happens here.
+// Warning 6328: (366-392): CHC: Assertion violation might happen here.
+// Warning 4661: (366-392): BMC: Assertion violation happens here.

@@ -44,6 +44,11 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreOS: macos
 // ----
-// Warning 6328: (255-269): CHC: Assertion violation happens here.\nCounterexample:\nx = 0\n\nTransaction trace:\nC.constructor()\nState: x = 0\nC.test()\n    C.reset_if_overflow() -- internal call
-// Warning 6328: (502-519): CHC: Assertion violation happens here.\nCounterexample:\nx = 2\noldx = 1\n\nTransaction trace:\nC.constructor()\nState: x = 0\nC.set(1)\nState: x = 1\nC.test()\n    C.reset_if_overflow() -- internal call
-// Warning 6328: (615-629): CHC: Assertion violation happens here.\nCounterexample:\nx = 1\n\nTransaction trace:\nC.constructor()\nState: x = 0\nC.set(10)\nState: x = 10\nC.test()\n    C.reset_if_overflow() -- internal call
+// Warning 4984: (175-180): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 6328: (255-269): CHC: Assertion violation happens here.
+// Warning 6328: (290-304): CHC: Assertion violation might happen here.
+// Warning 6328: (502-519): CHC: Assertion violation might happen here.
+// Warning 6328: (581-595): CHC: Assertion violation might happen here.
+// Warning 6328: (615-629): CHC: Assertion violation might happen here.
+// Warning 4661: (502-519): BMC: Assertion violation happens here.
+// Warning 4661: (615-629): BMC: Assertion violation happens here.

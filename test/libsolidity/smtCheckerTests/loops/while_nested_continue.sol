@@ -28,3 +28,7 @@ contract C
 // SMTEngine: all
 // SMTSolvers: z3
 // ----
+// Warning 6328: (290-305): CHC: Assertion violation might happen here.
+// Warning 6328: (329-344): CHC: Assertion violation might happen here.
+// Warning 4661: (290-305): BMC: Assertion violation happens here.
+// Warning 4661: (329-344): BMC: Assertion violation happens here.

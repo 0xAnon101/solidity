@@ -57,3 +57,4 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreCex: yes
 // ----
+// Warning 6368: (178-182): CHC: Out of bounds access might happen here.

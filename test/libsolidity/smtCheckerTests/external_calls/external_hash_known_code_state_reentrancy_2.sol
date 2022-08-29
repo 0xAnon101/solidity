@@ -42,4 +42,7 @@ contract C {
 // SMTIgnoreOS: macos
 // ----
 // Warning 2018: (33-88): Function state mutability can be restricted to view
-// Warning 6328: (367-381): CHC: Assertion violation happens here.
+// Warning 6328: (367-381): CHC: Assertion violation might happen here.
+// Warning 6328: (385-411): CHC: Assertion violation might happen here.
+// Warning 4661: (367-381): BMC: Assertion violation happens here.
+// Warning 4661: (385-411): BMC: Assertion violation happens here.

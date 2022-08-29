@@ -28,6 +28,7 @@ contract C
 // SMTIgnoreCex: yes
 // ----
 // Warning 6368: (327-331): CHC: Out of bounds access happens here.
-// Warning 6368: (584-588): CHC: Out of bounds access happens here.
-// Warning 6328: (577-594): CHC: Assertion violation happens here.
-// Warning 6368: (605-609): CHC: Out of bounds access happens here.
+// Warning 6368: (584-588): CHC: Out of bounds access might happen here.
+// Warning 6328: (577-594): CHC: Assertion violation might happen here.
+// Warning 6368: (605-609): CHC: Out of bounds access might happen here.
+// Warning 4661: (577-594): BMC: Assertion violation happens here.

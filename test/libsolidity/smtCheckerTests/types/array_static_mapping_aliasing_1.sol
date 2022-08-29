@@ -27,5 +27,8 @@ contract C
 // SMTEngine: all
 // SMTIgnoreCex: yes
 // ----
+// Warning 6368: (326-341): CHC: Out of bounds access might happen here.
+// Warning 6368: (353-369): CHC: Out of bounds access might happen here.
 // Warning 6328: (456-487): CHC: Assertion violation happens here.
-// Info 1180: Contract invariant(s) for :C:\n!(severalMaps3d.length <= 1)\n!(severalMaps8.length <= 1)\n
+// Warning 6368: (578-593): CHC: Out of bounds access might happen here.
+// Warning 6368: (847-861): CHC: Out of bounds access might happen here.

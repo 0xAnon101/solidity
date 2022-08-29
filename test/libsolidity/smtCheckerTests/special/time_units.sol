@@ -15,8 +15,8 @@ contract D {
 // ====
 // SMTEngine: all
 // ----
-// Warning 6328: (69-91): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nD.constructor()\nD.f()
-// Warning 6328: (131-163): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nD.constructor()\nD.f()
-// Warning 6328: (201-231): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nD.constructor()\nD.f()
-// Warning 6328: (265-291): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nD.constructor()\nD.f()
-// Warning 6328: (325-352): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nD.constructor()\nD.f()
+// Warning 6328: (69-91): CHC: Assertion violation happens here.
+// Warning 6328: (131-163): CHC: Assertion violation happens here.
+// Warning 6328: (201-231): CHC: Assertion violation happens here.
+// Warning 6328: (265-291): CHC: Assertion violation happens here.
+// Warning 6328: (325-352): CHC: Assertion violation happens here.

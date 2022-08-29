@@ -14,3 +14,8 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
+// Warning 4984: (194-197): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 6368: (223-227): CHC: Out of bounds access might happen here.
+// Warning 4984: (236-239): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 6368: (245-249): CHC: Out of bounds access might happen here.
+// Warning 6368: (245-252): CHC: Out of bounds access might happen here.

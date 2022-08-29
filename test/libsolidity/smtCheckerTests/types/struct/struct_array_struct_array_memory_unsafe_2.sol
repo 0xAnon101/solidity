@@ -38,4 +38,6 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreCex: yes
 // ----
-// Warning 6328: (804-842): CHC: Assertion violation happens here.
+// Warning 6368: (433-440): CHC: Out of bounds access might happen here.
+// Warning 6328: (804-842): CHC: Assertion violation might happen here.
+// Warning 4661: (804-842): BMC: Assertion violation happens here.

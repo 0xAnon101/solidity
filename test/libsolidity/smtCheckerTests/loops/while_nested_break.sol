@@ -30,3 +30,9 @@ contract C
 // SMTEngine: all
 // SMTSolvers: z3
 // ----
+// Warning 4984: (125-128): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 4984: (235-238): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 6328: (296-311): CHC: Assertion violation might happen here.
+// Warning 6328: (347-362): CHC: Assertion violation might happen here.
+// Warning 4661: (296-311): BMC: Assertion violation happens here.
+// Warning 4661: (347-362): BMC: Assertion violation happens here.

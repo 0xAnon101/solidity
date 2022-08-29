@@ -41,3 +41,8 @@ contract C {
 // ====
 // SMTEngine: all
 // SMTIgnoreInv: yes
+// ----
+// Warning 6328: (453-467): CHC: Assertion violation might happen here.
+// Warning 6328: (471-497): CHC: Assertion violation might happen here.
+// Warning 4661: (453-467): BMC: Assertion violation happens here.
+// Warning 4661: (471-497): BMC: Assertion violation happens here.

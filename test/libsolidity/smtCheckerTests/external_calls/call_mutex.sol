@@ -23,4 +23,5 @@ contract C {
 // SMTEngine: all
 // ----
 // Warning 9302: (218-234): Return value of low-level calls not used.
-// Info 1180: Reentrancy property(ies) for :C:\n((lock' || !lock) && (<errorCode> <= 0) && (!lock || ((x' + ((- 1) * x)) = 0)))\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(y == x)\n
+// Warning 6328: (238-252): CHC: Assertion violation might happen here.
+// Warning 4661: (238-252): BMC: Assertion violation happens here.

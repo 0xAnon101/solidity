@@ -23,4 +23,5 @@ contract C {
     }
 }
 // ----
-// Warning 6328: (296-310): CHC: Assertion violation happens here.\nCounterexample:\nx = 2, inG = true\n_i = 0\n\nTransaction trace:\nC.constructor()\nState: x = 0, inG = false\nC.g(0)\n    L.f(0) -- internal call\n        _i.i() -- untrusted external call, synthesized as:\n            C.s() -- reentrant call
+// Warning 6328: (296-310): CHC: Assertion violation might happen here.
+// Warning 4661: (296-310): BMC: Assertion violation happens here.

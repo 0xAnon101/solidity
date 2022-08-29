@@ -14,3 +14,7 @@ contract Simple {
 // ====
 // SMTEngine: all
 // ----
+// Warning 4984: (88-91): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 4984: (120-123): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 6328: (131-146): CHC: Assertion violation might happen here.
+// Warning 4661: (131-146): BMC: Assertion violation happens here.

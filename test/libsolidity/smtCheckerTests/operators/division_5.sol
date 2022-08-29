@@ -11,4 +11,3 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Warning 6838: (129-139): BMC: Condition is always true.

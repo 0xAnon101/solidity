@@ -29,4 +29,5 @@ contract C {
 // Warning 2072: (332-347): Unused local variable.
 // Warning 2072: (618-633): Unused local variable.
 // Warning 2072: (791-806): Unused local variable.
-// Warning 6328: (280-310): CHC: Assertion violation happens here.
+// Warning 6328: (280-310): CHC: Assertion violation might happen here.
+// Warning 4661: (280-310): BMC: Assertion violation happens here.

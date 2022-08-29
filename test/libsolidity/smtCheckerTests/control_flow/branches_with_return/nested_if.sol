@@ -22,5 +22,5 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Warning 6328: (114-141): CHC: Assertion violation happens here.\nCounterexample:\n\na = 0\nb = 2\n\nTransaction trace:\nC.constructor()\nC.test(0, 2)\n    C.nested_if(0, 2) -- internal call\n    C.nested_if(0, 2) -- internal call
+// Warning 6328: (114-141): CHC: Assertion violation happens here.
 // Warning 6838: (299-315): BMC: Condition is always false.

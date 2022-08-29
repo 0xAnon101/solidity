@@ -17,4 +17,5 @@ contract C
 // ====
 // SMTEngine: all
 // ----
-// Info 1180: Contract invariant(s) for :C:\n(true && !(a.length <= 2))\n(true && !(a[2].length <= 3))\n
+// Warning 6368: (171-175): CHC: Out of bounds access might happen here.
+// Warning 6368: (171-178): CHC: Out of bounds access might happen here.

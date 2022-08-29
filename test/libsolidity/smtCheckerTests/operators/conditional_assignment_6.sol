@@ -25,4 +25,5 @@ contract C {
 // SMTIgnoreOS: macos
 // ----
 // Warning 2072: (255-261): Unused local variable.
-// Info 1180: Reentrancy property(ies) for :C:\n((!(x' >= 3) || (a' = a)) && (<errorCode> <= 0) && (!(x' <= 0) || !(x >= 2)) && (!(x <= 2) || !(x' >= 3)))\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(x == 2 || x == 1)\n
+// Warning 6328: (285-309): CHC: Assertion violation might happen here.
+// Warning 4661: (285-309): BMC: Assertion violation happens here.

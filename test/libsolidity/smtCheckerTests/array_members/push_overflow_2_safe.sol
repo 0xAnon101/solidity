@@ -13,3 +13,5 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
+// Warning 6328: (163-195): CHC: Assertion violation might happen here.
+// Warning 4661: (163-195): BMC: Assertion violation happens here.

@@ -24,4 +24,15 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Info 1180: Contract invariant(s) for :C:\n!(m[0].length <= 1)\n!(m[0][1].length <= 2)\n!(m[0][1][2].length <= 3)\n
+// Warning 6368: (103-110): CHC: Out of bounds access might happen here.
+// Warning 6368: (121-128): CHC: Out of bounds access might happen here.
+// Warning 6368: (139-146): CHC: Out of bounds access might happen here.
+// Warning 6368: (178-188): CHC: Out of bounds access might happen here.
+// Warning 6368: (199-209): CHC: Out of bounds access might happen here.
+// Warning 6368: (220-227): CHC: Out of bounds access might happen here.
+// Warning 6368: (220-230): CHC: Out of bounds access might happen here.
+// Warning 6368: (241-251): CHC: Out of bounds access might happen here.
+// Warning 6368: (335-342): CHC: Out of bounds access might happen here.
+// Warning 6368: (335-345): CHC: Out of bounds access might happen here.
+// Warning 6368: (335-348): CHC: Out of bounds access might happen here.
+// Warning 6328: (323-349): CHC: Assertion violation might happen here.

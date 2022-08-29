@@ -12,5 +12,4 @@ contract A {
 // ====
 // SMTEngine: all
 // ----
-// Warning 6328: (124-146): CHC: Assertion violation happens here.\nCounterexample:\na = []\n\nTransaction trace:\nA.constructor()\nState: a = []\nA.f()
-// Info 1180: Contract invariant(s) for :A:\n(a.length <= 0)\n
+// Warning 6328: (124-146): CHC: Assertion violation happens here.

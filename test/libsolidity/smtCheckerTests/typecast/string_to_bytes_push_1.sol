@@ -11,4 +11,4 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Warning 6328: (132-160): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nState: x = []\nC.s()
+// Warning 6328: (132-160): CHC: Assertion violation happens here.

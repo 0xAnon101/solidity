@@ -23,4 +23,5 @@ contract C
 // ====
 // SMTEngine: all
 // ----
-// Info 1180: Contract invariant(s) for :C:\n(a <= 0)\n
+// Warning 3944: (69-74): CHC: Underflow (resulting value less than 0) might happen here.
+// Warning 6328: (98-112): CHC: Assertion violation might happen here.

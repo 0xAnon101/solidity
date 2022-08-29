@@ -16,11 +16,14 @@ contract C
 // ====
 // SMTEngine: all
 // ----
+// Warning 6368: (124-128): CHC: Out of bounds access might happen here.
 // Warning 6368: (124-131): CHC: Out of bounds access might happen here.
 // Warning 6368: (124-134): CHC: Out of bounds access might happen here.
+// Warning 6368: (152-156): CHC: Out of bounds access might happen here.
 // Warning 6368: (152-159): CHC: Out of bounds access might happen here.
 // Warning 6368: (152-162): CHC: Out of bounds access might happen here.
+// Warning 6368: (177-181): CHC: Out of bounds access might happen here.
 // Warning 6368: (177-184): CHC: Out of bounds access might happen here.
 // Warning 6368: (177-187): CHC: Out of bounds access might happen here.
-// Warning 6328: (170-192): CHC: Assertion violation happens here.\nCounterexample:\nc = [[[0]]]\nb = false\n\nTransaction trace:\nC.constructor()\nState: c = [[[0]]]\nC.f(false)
-// Info 1180: Contract invariant(s) for :C:\n!(c.length <= 0)\n
+// Warning 6328: (170-192): CHC: Assertion violation might happen here.
+// Warning 4661: (170-192): BMC: Assertion violation happens here.

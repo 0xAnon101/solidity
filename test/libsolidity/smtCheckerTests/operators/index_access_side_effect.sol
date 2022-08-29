@@ -22,6 +22,8 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreCex: yes
 // ----
+// Warning 6368: (207-211): CHC: Out of bounds access might happen here.
+// Warning 6368: (221-225): CHC: Out of bounds access might happen here.
+// Warning 6368: (342-348): CHC: Out of bounds access might happen here.
 // Warning 6328: (335-354): CHC: Assertion violation might happen here.
-// Info 1180: Contract invariant(s) for :C:\n!(a.length <= 2)\n!(a.length <= 3)\n
 // Warning 4661: (335-354): BMC: Assertion violation happens here.

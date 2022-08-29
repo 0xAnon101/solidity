@@ -32,3 +32,5 @@ contract C is A {
 // SMTIgnoreOS: macos
 // ----
 // Warning 6328: (154-168): CHC: Assertion violation happens here.
+// Warning 6328: (319-333): CHC: Assertion violation might happen here.
+// Warning 4661: (319-333): BMC: Assertion violation happens here.

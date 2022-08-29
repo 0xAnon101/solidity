@@ -29,5 +29,8 @@ contract C
 // ====
 // SMTEngine: all
 // ----
-// Warning 6328: (296-311): CHC: Assertion violation happens here.\nCounterexample:\n\nx = 0\ny = 10\nb = false\nc = true\n\nTransaction trace:\nC.constructor()\nC.f(0, 9, false, true)
-// Warning 6328: (347-362): CHC: Assertion violation happens here.\nCounterexample:\n\nx = 15\ny = 0\nb = true\nc = false\n\nTransaction trace:\nC.constructor()\nC.f(9, 0, true, false)
+// Warning 4984: (125-128): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 4984: (235-238): CHC: Overflow (resulting value larger than 2**256 - 1) might happen here.
+// Warning 6328: (296-311): CHC: Assertion violation might happen here.
+// Warning 6328: (347-362): CHC: Assertion violation happens here.
+// Warning 4661: (296-311): BMC: Assertion violation happens here.

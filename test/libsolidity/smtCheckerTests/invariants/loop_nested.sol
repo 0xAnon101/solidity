@@ -17,3 +17,5 @@ contract Simple {
 // ====
 // SMTEngine: all
 // ----
+// Warning 6328: (139-154): CHC: Assertion violation might happen here.
+// Warning 4661: (139-154): BMC: Assertion violation happens here.

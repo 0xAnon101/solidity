@@ -28,5 +28,5 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Warning 6328: (416-468): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.g()
-// Warning 6328: (503-555): CHC: Assertion violation happens here.\nCounterexample:\n\n\nTransaction trace:\nC.constructor()\nC.h()
+// Warning 6328: (416-468): CHC: Assertion violation happens here.
+// Warning 6328: (503-555): CHC: Assertion violation happens here.

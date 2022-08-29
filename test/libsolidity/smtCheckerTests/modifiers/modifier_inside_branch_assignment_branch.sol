@@ -24,4 +24,5 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
+// Warning 3944: (243-249): CHC: Underflow (resulting value less than 0) might happen here.
 // Warning 6838: (233-238): BMC: Condition is always true.

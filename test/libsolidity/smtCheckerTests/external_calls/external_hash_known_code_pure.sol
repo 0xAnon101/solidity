@@ -29,5 +29,7 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreCex: yes
 // ----
-// Warning 6328: (398-420): CHC: Assertion violation happens here.
-// Info 1180: Reentrancy property(ies) for :C:\n!(<errorCode> = 1)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(prevOwner == owner)\n<errorCode> = 3 -> Assertion failed at assert(sig_1 == sig_2)\n
+// Warning 6328: (334-360): CHC: Assertion violation might happen here.
+// Warning 6328: (398-420): CHC: Assertion violation might happen here.
+// Warning 4661: (334-360): BMC: Assertion violation happens here.
+// Warning 4661: (398-420): BMC: Assertion violation happens here.
